@@ -1,3 +1,30 @@
+https://www.npmjs.com/package/@3kmfi6hp/nodejs-proxy
+
+```
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm i -g @3kmfi6hp/nodejs-proxy"
+    }
+  ],
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "dev": {
+      "name": "Start Dev Server",
+      "command": "npx @3kmfi6hp/nodejs-proxy",
+      "runAtStart": true,
+      "preview": {
+        "port": 7860
+      },
+      "restartOn": {
+        "files": ["./package-lock.json"]
+      }
+    }
+  }
+}
+```
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
