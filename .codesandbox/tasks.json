@@ -3,7 +3,7 @@
   "setupTasks": [
     {
       "name": "Install Dependencies",
-      "command": "npm i -g @zyh688/nodejs-proxy"
+      "command": "npm i -g @3kmfi6hp/nodejs-proxy"
     }
   ],
 
@@ -11,7 +11,7 @@
   "tasks": {
     "dev": {
       "name": "Start Dev Server",
-      "command": "npx @zyh688/nodejs-proxy",
+      "command": "npx @3kmfi6hp/nodejs-proxy",
       "runAtStart": true,
       "preview": {
         "port": 7860
